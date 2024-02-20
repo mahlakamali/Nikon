@@ -26,7 +26,7 @@ body {
 .logo {
     position: absolute;
     left: 5%;
-    top: 3%;
+    top: 15%;
     width: 68px;
     height: 68px;
     display: flex;
@@ -36,6 +36,11 @@ body {
 .logo img {
     width: 100%;
     height: 100%;
+}
+
+nav {
+    position: relative;
+    z-index: 2;
 }
 
 nav ul {
@@ -52,4 +57,20 @@ nav li {
     margin-right: 20px;
     font-size: 15px;
     padding: 15px;
+}
+
+
+/* banner */
+
+.banner {
+    width: 100%;
+    height: 575px;
+    display: flex;
+    position: absolute;
+    top: 1px;
+}
+
+.banner img {
+    width: 90%;
+    height: 100%;
 }
