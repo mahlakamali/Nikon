@@ -56,11 +56,12 @@ nav ul {
 nav li {
     margin-right: 20px;
     font-size: 15px;
-    padding: 15px;
+    padding: 18px;
 }
 
-nav li a:se {
-    color: white;
+nav li:hover {
+    cursor: pointer;
+    border-bottom: 0.5px solid white;
 }
 
 
