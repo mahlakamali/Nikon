@@ -202,4 +202,9 @@ nav #ul-box #menu {
 #text p{
     font-weight: 550;
 }
+.text2{
+    font-size: medium;
+    font-weight: lighter;
+    font-family: robo;
+}
 /* end main */
