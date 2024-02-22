@@ -139,9 +139,6 @@ nav #ul-box #menu {
     position: relative;
     transition: all 0.6s ease;
 }
-
-
-
 .text-box-banner {
     position: absolute;
     top: 50%;
@@ -170,16 +167,18 @@ nav #ul-box #menu {
 }
 
 #imgs-box:hover a div.banners {
-    filter: grayscale(0.6);
+    filter: grayscale(0.7);
 }
 
 #imgs-box a:hover div.banners {
-    transform: scale(1.1);
-    width: 102%;
+    transform: scale(1.09);
     filter: grayscale(0);
     z-index: 1000;
 }
-
+.banners img:hover{
+    width: 102%;
+    transition: all 0.5s;
+}
 #imgs-box a:hover div div span.btn-ps {
     border: solid 2px white;
     background-color: rgba(0, 0, 0, 0.5);
