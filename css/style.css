@@ -15,61 +15,103 @@ body {
     font-family: robo;
 }
 
-.global {
-    position: absolute;
-    right: 30px;
-    top: 30px;
-    margin-right: 20px;
-    color: white;
+header {
+    position: relative;
 }
 
-.logo {
+/*---start nav---*/
+#menu {
+    color: white;
+    font-size: 1.5em;
+    padding: 0;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    margin-right: 0;
+}
+
+#net2 {
+    color: white;
+    font-size: 1.5em;
+    padding: 0;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#search2 {
+    color: white;
+    font-size: 1.5em;
+    padding: 0;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
+header>nav {
     position: absolute;
-    left: 6%;
-    top: 16%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10000;
+}
+
+nav #ul-box #menu {
+    display: none;
+    width: 80px;
+    height: 80px;
+    color: white;
+    font-size: 1.5em;
+
+}
+
+#logo,
+#logo>img {
     width: 68px;
     height: 68px;
+}
+
+#link-box {
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
+    flex-direction: column;
+    width: auto;
+    height: 68px;
+    font-size: medium;
+    font-weight: 500;
 }
 
-.logo img {
-    width: 100%;
-    height: 100%;
-}
-
-nav {
-    position: relative;
-    z-index: 2;
-}
-
-nav ul {
-    width: 100%;
-    height: 110px;
-    align-items: end;
-    background-color: rgba(0, 0, 0, 0.703);
+#link-box a,
+#link-box span {
     color: white;
+    font-size: 1em;
+    line-height: 40px;
+}
+
+#global {
+    text-align: end;
+}
+
+#ul-box {
     display: flex;
+    gap: 30px;
     justify-content: end;
+    font-size: medium;
 }
 
-nav li {
-    margin-right: 20px;
-    font-size: 15px;
-    padding: 18px;
+#ul-box>li:hover {
+    border-bottom: 1px solid white;
 }
 
-nav li:hover {
-    cursor: pointer;
-    border-bottom: 0.5px solid white;
-}
-
-
-/* banner */
-
+/*---end nav--*/
+/*---start banner---*/
 #imgs-box {
     height: auto;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
@@ -83,7 +125,9 @@ nav li:hover {
     transition: all 0.6s ease;
     font-size: x-small;
     text-shadow: 0px 8px 20px black;
+
 }
+
 
 .banners,
 .banners img {
@@ -96,9 +140,7 @@ nav li:hover {
     transition: all 0.6s ease;
 }
 
-.banners #company2 {
-    display: none;
-}
+
 
 .text-box-banner {
     position: absolute;
@@ -124,6 +166,7 @@ nav li:hover {
     width: 100%;
     justify-content: center;
     padding: 10px 15px;
+
 }
 
 #imgs-box:hover a div.banners {
@@ -141,3 +184,5 @@ nav li:hover {
     border: solid 2px white;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+/* end banner */
