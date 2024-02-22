@@ -167,7 +167,7 @@ nav #ul-box #menu {
 }
 
 #imgs-box:hover a div.banners {
-    filter: grayscale(0.7);
+    filter: grayscale(0.5);
 }
 
 #imgs-box a:hover div.banners {
