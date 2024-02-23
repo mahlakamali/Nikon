@@ -208,3 +208,269 @@ nav #ul-box #menu {
     font-family: robo;
 }
 /* end main */
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    gap: 20px;
+
+}
+
+#cards>.card1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+    min-height: 700px;
+    position: relative;
+    background-color: white;
+}
+
+.card1>a>img {
+    width: 100%;
+    position: absolute;
+}
+
+.card1>a>img:hover {
+    border: 1px solid;
+    opacity: 0.8;
+    transition: all 0.2s;
+}
+
+.card1>h3 {
+    position: absolute;
+    display: flex;
+    top: 45%;
+    padding: 6%;
+    font-size: x-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card1>p {
+    position: absolute;
+    top: 65%;
+    padding: 6%;
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.web-btn {
+    position: absolute;
+    background-color: black;
+    width: 250px;
+    height: 40px;
+    color: white;
+    padding: 2%;
+    text-align: center;
+    margin-left: 30px;
+    transition: all 0.4s;
+    top: 90%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.web-btn>a:visited {
+    color: white;
+
+}
+
+.web-btn:hover {
+    opacity: 0.6;
+
+}
+
+#cards>.card2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 700px;
+    position: relative;
+    background-color: white;
+}
+
+.card2>a>img {
+    width: 100%;
+    position: absolute;
+}
+
+.card2>a>img:hover {
+    border: 1px solid;
+    opacity: 0.8;
+    transition: all 0.2s;
+}
+
+.card2>h3 {
+    position: absolute;
+    display: flex;
+    top: 45%;
+    padding: 6%;
+    font-size: x-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card2>p {
+    position: absolute;
+    top: 55%;
+    padding: 6%;
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card2>.movie-btn {
+    position: absolute;
+    background-color: black;
+    width: 200px;
+    height: 45px;
+    color: white;
+    padding: 2%;
+    text-align: center;
+    margin-left: 30px;
+    top: 90%;
+    font-size: large;
+    transition: all 0.4s;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card2>.movie-btn:hover {
+    opacity: 0.6;
+}
+
+.card2>.movie-btn>a:visited {
+    color: white;
+}
+
+#cards>.card3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 700px;
+    position: relative;
+    background-color: white;
+}
+
+.card3>a>img {
+    width: 100%;
+    position: absolute;
+}
+
+.card3>a>img:hover {
+    border: 1px solid;
+    opacity: 0.8;
+    transition: all 0.2s;
+}
+
+.card3>h3 {
+    position: absolute;
+    display: flex;
+    top: 45%;
+    padding: 6%;
+    font-size: x-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card3>p {
+    position: absolute;
+    top: 52%;
+    padding: 6%;
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sus-btn {
+    position: absolute;
+    background-color: black;
+    width: 200px;
+    height: 45px;
+    color: white;
+    padding: 2%;
+    text-align: center;
+    margin-left: 30px;
+    top: 90%;
+    transition: all 0.4s;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sus-btn>a:visited {
+    color: white;
+}
+
+.sus-btn:hover {
+    opacity: 0.6;
+}
+
+#cards>.card4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 700px;
+    position: relative;
+    background-color: white;
+}
+
+.card4>a>img {
+    width: 100%;
+    position: absolute;
+}
+
+.card4>a>img:hover {
+    border: 1px solid;
+    opacity: 0.8;
+    transition: all 0.2s;
+}
+
+.card4>h3 {
+    position: absolute;
+    display: flex;
+    top: 45%;
+    padding: 6%;
+    font-size: x-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card4>p {
+    position: absolute;
+    top: 53%;
+    padding: 6%;
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card4>.check-btn {
+    position: absolute;
+    background-color: black;
+    width: 200px;
+    height: 80px;
+    color: white;
+    padding: 2%;
+    text-align: center;
+    margin-left: 30px;
+    top: 95%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card4>.movie-btn {
+    position: absolute;
+    background-color: black;
+    width: 180px;
+    height: 45px;
+    color: white;
+    padding: 2%;
+    text-align: center;
+    margin-left: 30px;
+    top: 82%;
+    transition: all 0.4s;
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card4>.movie-btn:hover {
+    opacity: 0.6;
+}
+
+.card4>.movie-btn>a:visited {
+    color: white;
+}
