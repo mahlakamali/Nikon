@@ -573,16 +573,6 @@ a:visited {
     background-color: transparent;
     position: relative;
 }
-
-#war>.icon2 {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 1.5em;
-    justify-content: center;
-    padding: 9% 10%;
-
-}
-
 #war>.text2 {
     position: absolute;
     top: 51%;
